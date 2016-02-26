@@ -83,11 +83,16 @@ $ brew install coreutils gnu-sed wget curl gawk p7zip</p></li>
 <h2>
 <a id="whitelist" class="anchor" href="#whitelist" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Whitelist</h2>
 
-<p>You can include exceptions editing the file /etc/hosts.whitelist (With root permissions), one domain name per line.</p>
+<p>You can include exceptions editing the file <code>/etc/hosts.whitelist</code> (With root permissions) or <code>~/.hosty.whitelist</code>, one domain name per line.</p>
 
 <p>Besides, hosty apply a internal whitelist for safety. If you want only use your custom whitelist and avoid the internal whitelist run:</p>
 
 <p>$ sudo hosty --all</p>
+
+<h2>
+<a id="blacklist" class="anchor" href="#blacklist" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Blacklist</h2>
+
+<p>You can add domains to block editing the file <code>/etc/hosts.blacklist</code> (With root permissions) or <code>~/.hosty.blacklist</code>, one domain name per line.</p>
 
 <h2>
 <a id="add-host-files-sources" class="anchor" href="#add-host-files-sources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add host files sources</h2>
