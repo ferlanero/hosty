@@ -1,8 +1,3 @@
-hosty
-=====
-
-Ad blocker script for all Unix and Unix-like operating systems (Linux, GNU, BSD, Mac OS X, FreeBSD, OpenBSD).
-
 ![Comparison of total memory usage](https://i.imgur.com/FOe5IRR.png)
 
 ## Manual instalation
